@@ -1,0 +1,50 @@
+<div class="container">
+    <h1>CAZACORRUPTOS ANALYTICS</h1>
+    <div id="stepper1" class="bs-stepper mt-5">
+      <div class="bs-stepper-header">
+        <div class="step" data-target="#empresa">
+          <button class="step-trigger">
+            <span class="bs-stepper-circle">1</span>
+            <span class="bs-stepper-label">Empresa</span>
+          </button>
+        </div>
+        <div class="line"></div>
+        <div class="step" data-target="#fecha">
+          <button class="step-trigger">
+            <span class="bs-stepper-circle">2</span>
+            <span class="bs-stepper-label">Contratos</span>
+          </button>
+        </div>
+        <div class="line"></div>
+        <div class="step" data-target="#producto">
+          <button class="step-trigger">
+            <span class="bs-stepper-circle">3</span>
+            <span class="bs-stepper-label">Licitaciones</span>
+          </button>
+        </div>
+        <div class="line"></div>
+        <div class="step" data-target="#venta">
+          <button class="step-trigger">
+            <span class="bs-stepper-circle">4</span>
+            <span class="bs-stepper-label">Facturación</span>
+          </button>
+        </div>
+      </div>
+      <div class="bs-stepper-content">
+        <div id="empresa" class="content" role="tabpanel">
+          <app-empresa *ngIf="currentStep === 0"></app-empresa>
+        </div>
+        <div id="fecha" class="content" role="tabpanel">
+          <app-venta-fecha *ngIf="currentStep === 1"></app-venta-fecha>
+        </div>
+        <div id="producto" class="content" role="tabpanel">
+          <app-producto *ngIf="currentStep === 2"></app-producto>                
+        </div>
+        <div id="venta" class="content" role="tabpanel">
+          <app-venta *ngIf="currentStep === 3"></app-venta>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  

@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      Durante este tiempo he podido vender alrededor de:
+    
+    </div>    
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <ngx-charts-line-chart
+      [view]="view"
+      [scheme]="colorScheme"
+      [legend]="legend"
+      [showXAxisLabel]="showXAxisLabel"
+      [showYAxisLabel]="showYAxisLabel"
+      [xAxis]="xAxis"
+      [yAxis]="yAxis"
+      [xAxisLabel]="xAxisLabel"
+      [yAxisLabel]="yAxisLabel"
+      [timeline]="timeline"
+      [results]="listaBarData"
+      (select)="onSelect($event)"
+      (activate)="onActivate($event)"
+      (deactivate)="onDeactivate($event)"
+      >
+    </ngx-charts-line-chart>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
