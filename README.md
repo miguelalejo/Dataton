@@ -9,9 +9,10 @@ Para la visualizacion con TABLEAU de los datos accede a al siguiente URL:
 https://public.tableau.com/profile/silvana.cisneros#!/vizhome/COMPRASPUBLICASDATOSABIERTOEC/DatosAbiertos?publish=yes
 
 2)Prototipo Web Herramienta CAZACORRUPTOS ANALYTICS
-https://www.youtube.com/watch?v=i3y2_BN6Avo&feature=youtu.be
-Video Explicativo:
 https://marvelapp.com/prototype/f7j7ah7
+Video Explicativo:
+https://www.youtube.com/watch?v=i3y2_BN6Avo&feature=youtu.be
+
 
 
 3) Open Data Contracting para convertirlos en archivos CSV.
